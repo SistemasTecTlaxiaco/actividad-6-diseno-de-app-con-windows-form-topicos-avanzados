@@ -58,5 +58,23 @@ namespace Biblioteca_INE
                 return false;//retorno del valor boleano
             }
         }
+
+        //MÉTODO DE CONFIRMACIÓN DE REGISTRO_FORM 6
+        private Boolean Validar(string C_nombre, string C_apellidop, string C_apellidom, string C_telefono,
+            string C_correo, string C_correo2, string C_contraseña, string C_fecha)//metodo para saber si los campos de texto están vacíos o no
+        {
+            if (C_nombre != "" && C_apellidop != "" && C_apellidom != "" &&
+                C_telefono != "" && C_correo != "" && C_correo2 != "" &&
+                C_contraseña != "" && C_fecha != "")//validación de los campos de texto, que estén rellenados
+            {
+                return true;
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
+                return false;//retorno del valor boleano
+            }
+        }
     }
 }
