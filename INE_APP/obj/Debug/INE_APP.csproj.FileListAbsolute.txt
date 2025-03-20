@@ -13,3 +13,18 @@ C:\Users\isaia\Desktop\Topicos Avanzados de Programacion\PROYECTO\INE_APP\INE_AP
 C:\Users\isaia\Desktop\Topicos Avanzados de Programacion\PROYECTO\INE_APP\INE_APP\obj\Debug\INE_APP.Form4.resources
 C:\Users\isaia\Desktop\Topicos Avanzados de Programacion\PROYECTO\INE_APP\INE_APP\obj\Debug\INE_APP.Form5.resources
 C:\Users\isaia\Desktop\Topicos Avanzados de Programacion\PROYECTO\INE_APP\INE_APP\obj\Debug\INE_APP.Form6.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\bin\Debug\INE_APP.exe.config
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\bin\Debug\INE_APP.exe
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\bin\Debug\INE_APP.pdb
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.csproj.AssemblyReference.cache
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form1.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form2.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form3.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form4.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form5.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Form6.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.Properties.Resources.resources
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.csproj.GenerateResource.cache
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.csproj.CoreCompileInputs.cache
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.exe
+C:\Users\isaia\source\repos\actividad-6-diseno-de-app-con-windows-form-topicos-avanzados\INE_APP\obj\Debug\INE_APP.pdb
