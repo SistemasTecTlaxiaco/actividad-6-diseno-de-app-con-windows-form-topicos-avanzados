@@ -43,5 +43,20 @@ namespace Biblioteca_INE
                 return false;//retorno del valor boleano
             }
         }
+
+        //MÉTODO DE UBICACIÓN DE MÓDULO_FORM 4
+        private Boolean Validar(string C_entidad, string C_municipio)//metodo para saber si los campos de texto están vacíos o no
+        {
+            if (C_entidad != "" && C_municipio != "")//validación de los campos de texto, que estén rellenados
+            {
+                return true;
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
+                return false;//retorno del valor boleano
+            }
+        }
     }
 }
