@@ -44,20 +44,7 @@ namespace INE_APP
         {
             Btn_confirmar.BackColor = ColorTranslator.FromHtml("#FFCCD5");
         }
-        private Boolean Validar()//metodo para saber si los campos de texto están vacíos o no
-        {
-            if (C_entidad.Text != "" && C_delegacion.Text != "" && C_modulo.Text != "" &&
-                C_fecha.Text != "" && C_tramite.Text != "")//validación de los campos de texto, que estén rellenados
-            {
-                return true;
-            }
-            else
-            {
-                DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
-                return false;//retorno del valor boleano
-            }
-        }
+        
 
         private void Btn_confirmar_Click(object sender, EventArgs e)
         {
