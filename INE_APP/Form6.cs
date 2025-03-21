@@ -56,15 +56,7 @@ namespace INE_APP
         {
             Btn_registrar.BackColor = ColorTranslator.FromHtml("#FFCCD5");
         }
-        private Boolean Validar()//metodo para saber si los campos de texto están vacíos o no
-        {
-            if (C_nombre.Text != "" && C_apellidop.Text != "" && C_apellidom.Text != "" && 
-                C_telefono.Text != "" && C_correo.Text != "" && C_correo2.Text != "" && 
-                C_contraseña.Text != "" && C_fecha.Text != "")//validación de los campos de texto, que estén rellenados
-            {
-                return true;
-            }
-            else
+
             {
                 DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
