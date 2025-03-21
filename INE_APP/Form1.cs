@@ -79,19 +79,7 @@ namespace INE_APP
             e.Graphics.FillRectangle(Brushes.White, rect);
             e.Graphics.DrawString(C_correo.Text, C_correo.Font, Brushes.Black, rect);
         }
-        private Boolean Validar()//metodo para saber si los campos de texto están vacíos o no
-        {
-            if (C_correo.Text == "" && C_contraseña.Text == "" || C_correo.Text == "" ||
-                C_contraseña.Text == "")//validación de los campos de texto, que no estén vacios
-            {
-                DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación", 
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
-                return false;//retorno del valor boleano
-            }
-            else
-            {
-                return true;
-            }
+  
         }
 
         private void button1_Click(object sender, EventArgs e)
