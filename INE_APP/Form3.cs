@@ -44,7 +44,8 @@ namespace INE_APP
         {
             Btn_confirmar.BackColor = ColorTranslator.FromHtml("#FFCCD5");
         }
-        
+       
+
 
         private void Btn_confirmar_Click(object sender, EventArgs e)
         {

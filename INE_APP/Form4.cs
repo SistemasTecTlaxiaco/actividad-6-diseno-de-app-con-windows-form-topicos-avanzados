@@ -84,41 +84,6 @@ namespace INE_APP
 
             Btn_localizar.BackColor = ColorTranslator.FromHtml("#FFCCD5");
         }
-        private Boolean Validar()//metodo para saber si los campos de texto están vacíos o no
-        {
-            if (C_entidad.Text != "" && C_municipio.Text != "")//validación de los campos de texto, que estén rellenados
-            {
-                return true;
-            }
-            else
-            {
-                DialogResult result = MessageBox.Show("INGRESE DATOS", "confirmación",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);//mensaje de alerta
-                return false;//retorno del valor boleano
-            }
-        }
-        private void Btn_localizar_Click(object sender, EventArgs e)
-        {
-            bool datos_correctos = Validar();//llamado al metodo y guardado de su valor boleano
-            if (datos_correctos)//comparación del valor voleano
-            {
-                DialogResult result = MessageBox.Show("¿Datos correctos?", "confirmación",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);//mensaje de confirmacion
-                    if (result == DialogResult.Yes){//al aceptar
-                        MessageBox.Show("MODULO UBICADO", "Informacion", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Information);//mensaje de confirmacion
-                    this.C_entidad.Text = "";
-                    this.C_municipio.Text = "";
-                    this.C_direccion.Text = "CALLE SIN NOMBRE SIN NÚMERO, COLONIA 1";
-                }
-                else//al negar
-                {
-                    //borrar el contenido de los campos de texto
-                    this.C_entidad.Focus();
-                    this.C_entidad.Text = "";
-                    this.C_municipio.Text = "";
-                }
-            }
-        }
+  
     }
 }
